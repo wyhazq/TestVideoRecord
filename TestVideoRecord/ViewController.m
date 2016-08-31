@@ -23,5 +23,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)pai:(UIButton *)sender {
+    UIStoryboard *avSB = [UIStoryboard storyboardWithName:@"NRDAV" bundle:[NSBundle mainBundle]];
+    UINavigationController *navi = [avSB instantiateViewControllerWithIdentifier:@"NRDNavigationController"];
+    [self presentViewController:navi animated:YES completion:nil];
+    
+}
 
 @end

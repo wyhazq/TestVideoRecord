@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F844F50B1D6D34AE00C51B6B /* IDAssetWriterCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F5021D6D34AE00C51B6B /* IDAssetWriterCoordinator.m */; };
+		F844F50C1D6D34AE00C51B6B /* IDCaptureSessionAssetWriterCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F5041D6D34AE00C51B6B /* IDCaptureSessionAssetWriterCoordinator.m */; };
+		F844F50D1D6D34AE00C51B6B /* IDCaptureSessionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F5061D6D34AE00C51B6B /* IDCaptureSessionCoordinator.m */; };
+		F844F50E1D6D34AE00C51B6B /* IDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F5081D6D34AE00C51B6B /* IDFileManager.m */; };
+		F844F50F1D6D34AE00C51B6B /* IDPermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F50A1D6D34AE00C51B6B /* IDPermissionsManager.m */; };
+		F844F5121D6D6ED400C51B6B /* NRDPlayerCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F5111D6D6ED400C51B6B /* NRDPlayerCoordinator.m */; };
+		F844F5171D6D8AAF00C51B6B /* NRDVideoPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F5141D6D8AAF00C51B6B /* NRDVideoPlayerVC.m */; };
+		F844F5181D6D8AAF00C51B6B /* NRDVideoRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F844F5161D6D8AAF00C51B6B /* NRDVideoRecordVC.m */; };
+		F844F51A1D6D8AD300C51B6B /* NRDAV.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F844F5191D6D8AD300C51B6B /* NRDAV.storyboard */; };
 		F8934B671D6589D500978472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8934B661D6589D500978472 /* main.m */; };
 		F8934B6A1D6589D500978472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8934B691D6589D500978472 /* AppDelegate.m */; };
 		F8934B6D1D6589D500978472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8934B6C1D6589D500978472 /* ViewController.m */; };
@@ -16,6 +25,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F844F5011D6D34AE00C51B6B /* IDAssetWriterCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAssetWriterCoordinator.h; sourceTree = "<group>"; };
+		F844F5021D6D34AE00C51B6B /* IDAssetWriterCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDAssetWriterCoordinator.m; sourceTree = "<group>"; };
+		F844F5031D6D34AE00C51B6B /* IDCaptureSessionAssetWriterCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCaptureSessionAssetWriterCoordinator.h; sourceTree = "<group>"; };
+		F844F5041D6D34AE00C51B6B /* IDCaptureSessionAssetWriterCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCaptureSessionAssetWriterCoordinator.m; sourceTree = "<group>"; };
+		F844F5051D6D34AE00C51B6B /* IDCaptureSessionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCaptureSessionCoordinator.h; sourceTree = "<group>"; };
+		F844F5061D6D34AE00C51B6B /* IDCaptureSessionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCaptureSessionCoordinator.m; sourceTree = "<group>"; };
+		F844F5071D6D34AE00C51B6B /* IDFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDFileManager.h; sourceTree = "<group>"; };
+		F844F5081D6D34AE00C51B6B /* IDFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDFileManager.m; sourceTree = "<group>"; };
+		F844F5091D6D34AE00C51B6B /* IDPermissionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPermissionsManager.h; sourceTree = "<group>"; };
+		F844F50A1D6D34AE00C51B6B /* IDPermissionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPermissionsManager.m; sourceTree = "<group>"; };
+		F844F5101D6D6ED400C51B6B /* NRDPlayerCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDPlayerCoordinator.h; sourceTree = "<group>"; };
+		F844F5111D6D6ED400C51B6B /* NRDPlayerCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDPlayerCoordinator.m; sourceTree = "<group>"; };
+		F844F5131D6D8AAF00C51B6B /* NRDVideoPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDVideoPlayerVC.h; sourceTree = "<group>"; };
+		F844F5141D6D8AAF00C51B6B /* NRDVideoPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDVideoPlayerVC.m; sourceTree = "<group>"; };
+		F844F5151D6D8AAF00C51B6B /* NRDVideoRecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDVideoRecordVC.h; sourceTree = "<group>"; };
+		F844F5161D6D8AAF00C51B6B /* NRDVideoRecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDVideoRecordVC.m; sourceTree = "<group>"; };
+		F844F5191D6D8AD300C51B6B /* NRDAV.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NRDAV.storyboard; sourceTree = "<group>"; };
 		F8934B621D6589D500978472 /* TestVideoRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVideoRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8934B661D6589D500978472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8934B681D6589D500978472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +65,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F844F5001D6D34AE00C51B6B /* NRDAV */ = {
+			isa = PBXGroup;
+			children = (
+				F844F5011D6D34AE00C51B6B /* IDAssetWriterCoordinator.h */,
+				F844F5021D6D34AE00C51B6B /* IDAssetWriterCoordinator.m */,
+				F844F5031D6D34AE00C51B6B /* IDCaptureSessionAssetWriterCoordinator.h */,
+				F844F5041D6D34AE00C51B6B /* IDCaptureSessionAssetWriterCoordinator.m */,
+				F844F5051D6D34AE00C51B6B /* IDCaptureSessionCoordinator.h */,
+				F844F5061D6D34AE00C51B6B /* IDCaptureSessionCoordinator.m */,
+				F844F5101D6D6ED400C51B6B /* NRDPlayerCoordinator.h */,
+				F844F5111D6D6ED400C51B6B /* NRDPlayerCoordinator.m */,
+				F844F5071D6D34AE00C51B6B /* IDFileManager.h */,
+				F844F5081D6D34AE00C51B6B /* IDFileManager.m */,
+				F844F5091D6D34AE00C51B6B /* IDPermissionsManager.h */,
+				F844F50A1D6D34AE00C51B6B /* IDPermissionsManager.m */,
+				F844F5131D6D8AAF00C51B6B /* NRDVideoPlayerVC.h */,
+				F844F5141D6D8AAF00C51B6B /* NRDVideoPlayerVC.m */,
+				F844F5151D6D8AAF00C51B6B /* NRDVideoRecordVC.h */,
+				F844F5161D6D8AAF00C51B6B /* NRDVideoRecordVC.m */,
+				F844F5191D6D8AD300C51B6B /* NRDAV.storyboard */,
+			);
+			path = NRDAV;
+			sourceTree = "<group>";
+		};
 		F8934B591D6589D500978472 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +108,7 @@
 		F8934B641D6589D500978472 /* TestVideoRecord */ = {
 			isa = PBXGroup;
 			children = (
+				F844F5001D6D34AE00C51B6B /* NRDAV */,
 				F8934B681D6589D500978472 /* AppDelegate.h */,
 				F8934B691D6589D500978472 /* AppDelegate.m */,
 				F8934B6B1D6589D500978472 /* ViewController.h */,
@@ -110,6 +161,7 @@
 				TargetAttributes = {
 					F8934B611D6589D500978472 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L5WU564W59;
 					};
 				};
 			};
@@ -138,6 +190,7 @@
 			files = (
 				F8934B751D6589D500978472 /* LaunchScreen.storyboard in Resources */,
 				F8934B721D6589D500978472 /* Assets.xcassets in Resources */,
+				F844F51A1D6D8AD300C51B6B /* NRDAV.storyboard in Resources */,
 				F8934B701D6589D500978472 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F844F50E1D6D34AE00C51B6B /* IDFileManager.m in Sources */,
+				F844F5181D6D8AAF00C51B6B /* NRDVideoRecordVC.m in Sources */,
+				F844F50C1D6D34AE00C51B6B /* IDCaptureSessionAssetWriterCoordinator.m in Sources */,
+				F844F50F1D6D34AE00C51B6B /* IDPermissionsManager.m in Sources */,
+				F844F50B1D6D34AE00C51B6B /* IDAssetWriterCoordinator.m in Sources */,
+				F844F5171D6D8AAF00C51B6B /* NRDVideoPlayerVC.m in Sources */,
+				F844F5121D6D6ED400C51B6B /* NRDPlayerCoordinator.m in Sources */,
 				F8934B6D1D6589D500978472 /* ViewController.m in Sources */,
 				F8934B6A1D6589D500978472 /* AppDelegate.m in Sources */,
+				F844F50D1D6D34AE00C51B6B /* IDCaptureSessionCoordinator.m in Sources */,
 				F8934B671D6589D500978472 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +326,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jun li (3UJ3PZBE52)";
 				INFOPLIST_FILE = TestVideoRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyh.TestVideoRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoniu66.niurendai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9bb7d956-ace6-4af2-8272-8e238e3d3e81";
 			};
 			name = Debug;
 		};
@@ -276,10 +339,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jun li (3UJ3PZBE52)";
 				INFOPLIST_FILE = TestVideoRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wyh.TestVideoRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoniu66.niurendai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9bb7d956-ace6-4af2-8272-8e238e3d3e81";
 			};
 			name = Release;
 		};
@@ -302,6 +367,7 @@
 				F8934B7B1D6589D500978472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
